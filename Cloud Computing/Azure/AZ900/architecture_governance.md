@@ -116,18 +116,37 @@
                 * Can create multiple isolated virtual networks. When you set a virtual network, you define a private IP address by using either public or private IP address ranges. IP range only exists with virtual network and isn't internet routable. You can divide that IP address into subnets and allocate part of the defined address space to each named subnet 
                 * Can use Name Resolution built into azure or can configure Virtual Network to an internal or external DNS server
             * Internet communication
-                * YHou can enable incoming connections from internet
+                * You can enable incoming connections from internet by assigning a public IP address tol an Azure Resource or putting the resource behind a public load balancer
             * Communicate between Azure resources
+                * Virtual Neltworks can not only connect to VMS but other Azure Resources such as the App Service Environment for Powr Apps, Azure Kubernetes Service, and Azure Virtual Machine Scale Sets
+                * Service endpoints can connect to other Azure resource types, such as Azure SQL databases and storage accounts. Approach enables you to link multiple Azure resources to virtual networks to improve security and provide optimal routing.
             * Communicate between on-premises resources
+                * Point to site 
+                * Site to site
+                * Azure ExpressRoute - dedicated private connectivity to Azure that doesn't travel over internet. Usefull where you need greater bandwith and higher levels of security.
             * Route network traffic
+                * Route tables allow you to define rules about how traffic should be directed. You can create custom route tables that control how packets are routed between subnets
+                * Border Gateway Protocol (BGP) works with Azure VPN Gatways, Azure Route or Azure xpressRoute to propogate on premises BGP routes to Azure Virtual Networks
             * Filter network traffic
+                * Allows you to filter traffic between subnets
+                    * Network security groups that contain multiple inbound and outbound security rules
+                    * Network virtual appliances are specialized VMs that can be compared to a hardened network appliance. A ewtowrk appliance carries out a particular etwork functon such as running a firewall or performing wide area network (WAN) optimization.
             * Connect virtual network
+                * You can link virtual networks together by usig virutal network peering. Allows two virtual networks to connect directly to each other. Network traffic between peered networks is private and travels on Bicrsoft backbone network, never entering the public internet. 
+                * User Defined Routes (UDR) allow you to control the routing tables between subnets within a virtual network or between virtual networks. Allows for greater control over network traffic flow.
     * Azure Virtual Subnets
+        * See above
     * Peering
+        * See above
     * Azure DNS
+        * See above
     * VPN Gateway
+        * Type of virtual network gateway. Instances are deployed in a dedicated subnet of the virtual network and enable the following connectivity
+            * Connect on-premises datacenters to virtual networks through site-to-site connection
+            * Connect individual devices to virtual networks through a point-to-site connection
+            * Connect virutal networks to other virtual networks through a network-to-network connection.
     * Express Route
+        * See above
 * Define Public and Private Endpoints
+    * See above
 
-
-## Describe Azure Management and Governance
