@@ -151,7 +151,7 @@
     * See above
 
 
-## Azure Storage Services
+## Describe Azure Storage Services
 
 * Compare Azure Storage Services
     * Storage account provides a unique namespace for Azure Storage Data thats accessible via HTTP or HTTPs
@@ -211,3 +211,89 @@
     * AzCoppy - command-line utility that can cpy blobs or files from your storage account. YHou can upload, download, copy between storage account, and synchronize files
     * Azure Storage Explorer - standalone app that provides a GUI to manage files and blobs.
     * Azure File Sync - centralize file shares keep the flexibility, performance, and compatibility of a wndows file server.
+
+
+## Describe Azure Identity, Access and Security
+
+* Describe directory services in Azure
+    * Azure AD
+        * Directory service that allows you to sign in and access both Microsoft cloud applications and cloud applications that you develop. Also can help mantain on-premises AD deployment
+        * You can connect Azure AD with on-prem AD using Azure AD connect.
+        * Used for
+            * IT administrators
+            * App Develpers
+            * Users
+            * Online Service Subscribers
+        * Provides
+            * Authentication
+            * SSO
+            * Application Management
+            * Device Management
+    * Azure AD DS
+        * (Domain Service) Provides managed domain services such as domain join, group policy, lightwight access protocol (LDAP) and Kerberos/NTLM authenitcation.
+        * Lets you run legacy apps in the cloud that can't use modern auth methods, or where you don't want directory lookups to always go back to an on-premises environment into a managed domain without needing to manage the AD DS environment in the cloud
+        * Managed domain is configured to perform a one-way sync from Azure AD to Azure AD DS. 
+* Describe Authentication methods in Azure - establishing the identity of a person, service, or device.
+    * SSO
+        * Single Sign On enables users to sign in one time and use that cred to access multiple resources and applications frm different providers.
+        * Only need to remember one ID and password.
+    * MFA
+        * Multi Factor Auth - helps protect against a password
+        * Three categories
+            * Something a user knows
+            * Something the user has
+            * Something the user is
+        * Azure AD Multi-Factor Authentication - allows users to choose an additional form of auth during sign in
+        * Other options by Global Azure and Azure Government
+            * Window Hello for Business - ideal for information workers that have their own designated windows pc. With public key infrastructure (PKI) and built in SSO
+            * Microsoft Authenticator App - Passwordless Credential
+            * FIDO2 Security Keys - (Fast IDentity Online) Promotes open auth standards to reduce the use of passwords as a form of authentication
+    * Passwordless
+* Azure External Entities
+    * Ways you can securely interact with users outside of organization
+        * Business to Business collaboration (B2B)
+        * Business to Business Diredct Connect 
+        * Azure AD Business to Customer (B2C)
+* Azure AD Conditonal Access
+    * Conditional Access is a tool that Azure AD uses to allow or deny access to resources based on identity signals
+    * More Granular multifaactor auth experience for usres
+    * Signal, Decision, Enforcement
+* Azure Role Based Access Control (RBAC)
+    * Principle of least privilege says you should only grant access up to the level needed to complete a task. 
+    * Azure provides built-in roles that describe common access rules for cloud resources
+    * Role-based access is applied to a scope which is a resource or set of resources that this access applies to
+        * A management group
+        * Single subscripton
+        * Resource Group
+        * Sngle Resource
+    * RBAC is hierarchical. When you grat access at a parent scope, those permissions are inherited by all child scopes.
+    * RBAC is enforced on any action initiated against Azure Resource that passes through Azure Resource Manager
+* Zero Trust
+    * Security model that assumes the worst case scenario and protects resources with that expectation. Assumes breach at the outset, and verifies each request as through it originated from an uncontrolled network.
+        * Verify Explicitly
+        * Use least privilege access
+        * Assume breach
+* Defense In Depth Model
+    * Objective is to protect information and prevent it from being stolen by those who aren't authorized to access it
+    * Layers provide protection so that if one layer is breached, the subsequent layer is already in place to prevent further exposure.
+        * Physical Security
+        * Identity and Access
+        * Perimiter
+        * Network
+        * Compute
+        * Application
+        * Data
+* Microsoft Defender for Cloud
+    * Security posture management and threat protection. Monitors cloud, on-premesis, hybrid, and multicloud environments to provide guidance and notifications aimed at strengthening security prosture.
+    * Azure-native protectons
+        * Azure PaaS
+        * Azure data services
+        * Networks
+    * Can defend hybrid resources
+    * Can defend resources on other clouds
+    * Three Vital Needs
+        * Contnually Assess
+        * Secure
+        * Defend
+    * Security Alerts
+    * Advanced threat protection
