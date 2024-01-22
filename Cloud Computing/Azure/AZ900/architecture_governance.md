@@ -150,3 +150,64 @@
 * Define Public and Private Endpoints
     * See above
 
+
+## Azure Storage Services
+
+* Compare Azure Storage Services
+    * Storage account provides a unique namespace for Azure Storage Data thats accessible via HTTP or HTTPs
+    * Benefits
+        * Durable
+        * Highly available
+        * Secure
+        * Scalable
+        * Managed
+        * accessible
+* Describe storage tiers
+* Describe redundancy options
+    * Redundancy in Primary Regon
+        * Locally redundant storage (LRS) 
+            * Replicates data three times within a single data center or primary region. 11 nines of durability. Lowest-cost redundancy option, and least durability. Protects against server rack and drive failures
+        * Zone-redundant storage (ZRS)
+            * Replicates data synchronously across AZ availabilikty zones in the primary region 12 nines of durability
+            * data is still accessbile for read/write if a zone becomes unavailable. 
+    * Redundancy in a Secondary Region
+        * Geo-redundant storage (GRS)
+            * Copies data asynchronously to a single physical locaton in the secondary region (regon pair) using LRS. 16 nines of durability
+        * Geo-zone-redundant storage (GZRS)
+            * Copied across three AZ availibility zones in the primary region, and also replicated to a secondary geographic region
+    * Read access to data in the secondary region
+        * Replicates data to another physical location to protect against regional outages, however the data is available to be read only if the customer or Microsoft initiates a failover from the primary to secondary region.
+        * Read-access geo-redundant storage (RA-GRS)
+        * Read-access geo-zone redundant storage (RA-GZRS)
+* Describe storage account optons and storage types
+    * Azure Blobs
+        * Scalable object store for text and binary data. Includes support for big data analytics. No restrictions on kinds of data it can hold. Aren't restricted to common file formats. 
+        * Ideal for images or documents, storing files, streaming video and audio, storing data for backup and restore, DR, and archiving, storing data for analysis by an on prem Azure-hosted service.
+        * Tiers for Blob Storage
+            * Hot Access
+            * Cool access
+            * Archive Access
+    * Azure Files
+        * Managed file shares for cloud or on-premises deployments. Accessible via Server Message Block (SMB) or Network File System (NFS) protocols for Windows, Linux and macOS clients
+        * Benefits:
+            * Shared Access
+            * Fully managed
+            * Scripting and Tooling
+            * Resiliency
+            * Familiar programmability
+    * Azure Queues
+        * Messaging store for reliable messaging between application components. Can be combined with Azure Functions to take action when a message is received. For example, if you want to perform an action after a customer uploads a form on a website. Trigger a message to Queue storage, then use Azure Fucntions to trigger an action once the message was received.
+    * Azure Disks
+        * Block-level storage volumes for Azure VMs
+        * Conceptually, same as physical disk but they're virtualized, giving greater resiliency and availability.
+* Identify options for moving files, including Azure Migrate and Azure Data Box
+    * Azure Migrate - service that helps migrate from on-prem to the cloud.
+        * Discovery and Assesment
+        * Server migration
+        * Data Migration Assistant
+        * Azure DB Migration Service
+        * Web App Migration Assistant
+        * Azure Data Box - physical migration service.
+    * AzCoppy - command-line utility that can cpy blobs or files from your storage account. YHou can upload, download, copy between storage account, and synchronize files
+    * Azure Storage Explorer - standalone app that provides a GUI to manage files and blobs.
+    * Azure File Sync - centralize file shares keep the flexibility, performance, and compatibility of a wndows file server.
