@@ -103,3 +103,30 @@
         * Using CLI
         * Using APIs
         * Using Powershell
+
+## Cloud Service Types
+
+* IaaS
+    * Most flexible category of cloud services
+    * Cloud provider is responsible for maintaining the hardware, network connectivity, and physical security
+    * You are responsible or everything else
+    * Essentially renting the hardware in a cloud datacenter
+    * Scenarios
+        * Lift and shift migration
+        * Testing and Deployment
+* PaaS
+    * Middle ground between renting space in a data center and paying for the complete and deployed solution
+    * Cloud maintains the physical infrastructure, physical security, and connection to the internet as well as operating systems, middleware, development tools, business intelligence services.
+    * Scenarios
+        * Development Framework
+        * Analytics or Business Intelligence
+* SaaS
+    * Complete cloud service from a product perspective.
+    * Renting a fully developed application
+    * Easiest to get up and running
+    * Requires the least amount of knowledge and expertise.
+    * Scenarios
+        * Email and messaging
+        * Business productivity and applications
+        * Finance and expense tracking
+
