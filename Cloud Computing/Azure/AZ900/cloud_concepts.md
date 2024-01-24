@@ -65,3 +65,41 @@
     * Scale as your business needs change
 
 
+## Benefits of using Cloud Services
+* High Availability
+    * Resources are available when needing
+    * SLA (Service Level Agreements) guarantees service availability
+* Scalability
+    * Ability to adjust resources to meet demand.
+    * Aren't over paying for services. Only pay for what you use
+    * Vertical Scaling
+        * Increasing or Decreasing the capabilities of resources
+    * Horizontal Scaling
+        * Adding or Subtracting number of resources
+* Reliability
+    * Ability of a system to recover from failures and continue to function
+    * One of the pillars of the Microsoft Azure Well-Architected Framework
+    * Decentralized Design. Cloud enables you to have resources deployed in regions around the world.
+* Predictability
+    * Performance predictability
+        * Autoscaling
+        * Load Balancing
+        * High availability
+    * Cost predictability
+        * Total Cost of Ownership
+        * Pricing Calculator
+        * Track your resource use in real time
+* Security and Governance
+    * Set templates that ensure resources meet corporate standards and government regulatory requirements
+    * Cloud providers are well suited to handle DDoS attacks
+* Manageability
+    * Management of the cloud
+        * Automatically scale
+        * Deploy resources based on preconfigured template
+        * Monitor Health
+        * Receive Automatic Alerts
+    * Management in the cloud
+        * Through a web portal
+        * Using CLI
+        * Using APIs
+        * Using Powershell
