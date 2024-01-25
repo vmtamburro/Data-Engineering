@@ -87,3 +87,38 @@
 * Service Trust Portal
     * Portal that provides access to various content, tools, and other resources about Microsoft security, privacy, and compliance practices
     * Contains details about Microsoft's implementation of controls and processes that protect our cloud services and customer data therein.
+
+## Features and Tools for Managing and Deploying Azure Resources
+
+* Describe Azure Portal
+    * Web Based Unified Console that provides an alternative to command-line tools. You can manage your Azure subscription with a GUI interface
+        * build, manage, and monitor siple web apps to complex cloud deployments
+        * create custom dashboards for an organized view of resources
+        * configure accessibility options for an optimal experience
+* Describe Azure Cloud Shell - browser-based shell tool
+     * Azure CLI - equivalent to Azure Powershell, with the primary difference being the syntax of commands. CLI uses Bash commands. 
+     * Provides the same benefits of handling discrete tasks or orchestrating complex options through code.
+     * Azure Powershell - shell to run commands called command-lets. Call to the Azure REST API to perform management tasks in Azure.
+* Azure Arc
+    * Hybrid and multi-cloud environments can get complicated. Azure provides a host of tools to provision, configure, and monitor Azure resources. 
+    * Lets you extend compliance and monitoring to hybrid and multi cloud platform
+* Azure Resource Manager (ARM)
+    * Deployment and management service for Azure. Provides a management layer that enables you to create, update, and delete resources in azure account. 
+    * When a user sends a request from Azure tools, ARM receives the request, authenticates, and authorizes the request. ARM then sends the request to the Azure Service
+        * Infrastructure management through declarative templates
+        * Deploy, manage, and monitor resources
+        * Re-deploy solution throughout development life-cycle
+        * Define dependencies between resources
+        * Apply access control to all services
+        * Apply tags to resources to logically organize all the resources ins subscription
+        * Clarify organization's billing
+* ARM Templates
+     * Infrastructure as code - manage infrastructure as lines of code.
+     * Describe the resources you want to use in declarative JSON format
+    * Benefits include
+        * Declarative syntax
+        * Repeatable results
+        * Orchestration
+        * Modular files
+        * Extensibility
+        
