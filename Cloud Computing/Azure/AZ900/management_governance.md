@@ -52,3 +52,38 @@
         * Security
         * Governance and regulatory compliance
         * Workload optimization and automation.
+
+
+## Features and Tools in Azure for Governance and complicance
+
+* Azure Blueprints
+    * Standardize cloud subscription or environment deployments rather than having to configure features like Azure Policy for each new subscription
+    * Define repeatable settings and policies that are applied as new subscriptions are created
+    * Each component in the blueprint definition is known as an artifact
+    * Artifacts can also contain one or more parameters that you can configure
+        * Role Assignments
+        * Policy Assignments
+        * Azure Resource Manager templates
+        * Resource Groups
+* Azure Policy
+    * Create, assign, and manage policies that control or audit your resources
+    * Policies enforce different rules across resource configurations so that those configurations stay compliant with corporate standards
+    * Allows you to define
+        * Individual Policies
+        * Groups of related policies (initiatives)
+    * Can prevent noncompliant resources from being created
+    * Initiatives - way of grouping related policies together
+        * Example: Enable Monitoring - monitor available security recommendations. Policy definitions include
+            * Monitory unencrypted SQL database
+            * Monitor OS Vulnerabilities
+            * Monitor missing Endpoint Protection
+* Resource Locks
+    * Prevents resources from being accidentally deleted or changed
+    * Applied to individual resources, resource groups, or even an entire subscription.
+    * Resource locks are inherited.
+    * Two types of resource locks
+        * Delete
+        * ReadOnly
+* Service Trust Portal
+    * Portal that provides access to various content, tools, and other resources about Microsoft security, privacy, and compliance practices
+    * Contains details about Microsoft's implementation of controls and processes that protect our cloud services and customer data therein.
