@@ -11,7 +11,7 @@
     * Maintenance
         * Rapidly adjust resources based on demand
         * Using resource groups can help keep all of your resources organized.
-        * Maintain your cloud environment. Everytime you provision a VM, storage and networking are also provisioned. If your deprovision the VM, you may not deprovision the storage and networking intentionally or unintentionally.
+        * Maintain your cloud environment. Every time you provision a VM, storage and networking are also provisioned. If your deprovision the VM, you may not deprovision the storage and networking intentionally or unintentionally.
         * Make sure you're not keeping around resources that are no longer needed
     * Geography
         * Cost of power, labor, taxes, and fees vary depending on the location
@@ -54,7 +54,7 @@
         * Workload optimization and automation.
 
 
-## Features and Tools in Azure for Governance and complicance
+## Features and Tools in Azure for Governance and compliance
 
 * Azure Blueprints
     * Standardize cloud subscription or environment deployments rather than having to configure features like Azure Policy for each new subscription
@@ -121,4 +121,47 @@
         * Orchestration
         * Modular files
         * Extensibility
-        
+
+## Describe Monitoring Tools in Azure
+
+* Azure Advisor
+    * Evaluates resources and makes recommendations to help improve reliability, security, and performance.
+    * Designed to help save time on cloud optimization.
+    * Recommendations are divided into five categories
+        * Reliability
+        * Performance
+        * Operational Excellence
+        * Cost
+* Azure Service Health
+    * Provides a global cloud solution to help manage infrastructure needs
+    * Helps keep track of Azure Resource.
+    * Combines three different Azure services
+        * Azure Status
+            * Broad picture of status of azure globally
+            * Informs you of service outages in Azure on the Azure Status Page.
+            * Good reference for incidents with widespread impact.
+        * Service Health
+            * Provides narrower view of azure services and regions.
+            * Focuses on the azure services and regions you're using.
+            * Best place to look for service impacting communications about outages.
+            * Can even set up Service Health alerts to notify you when service issues, planned maintenance, or other changes may affect the azure services and regions you use
+        * Resource Health 
+            * Tailored view of actual Azure resources
+            * Provides information about the health of your individual cloud resources, such as your specific VM Instance
+* Azure Monitor - platform for collecting data on resources, analyzing that data, visualizing the information, and acting on results.
+    * Azure Log Analytics
+        * Tool in Azure portal where you'll write and run log queries n the data gathered by Azure Monitor.
+    * Azure Monitor Alerts
+        * Automated way to stay informed when Azure Monitor detects a threshold being crossed.
+        * Can also attempt corrective action
+    * Application Insights
+        * Monitors wb applications
+        * Capable of monitoring apps that run in Azure, on-prem, or in a different cloud environment.
+        * Can get the following information.
+            * Request rates, response times, failure rates
+            * Dependency rates, response times, and failure rates
+            * Page views and load performance
+            * Ajax calls from web pages.
+            * User and session counts
+            * Performance counters from Windows or Linux server machines, such as CPU, memory, and network usage.
+
