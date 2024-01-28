@@ -1,0 +1,21 @@
+## Data Engineering Principles Concepts and Practice
+
+- Python Programming and Data Science Ecosystem
+- Data Pre-Processing for Analysis
+- Exploratory Analysis
+- Statistical Inference
+- Predictive Analytics
+  - Decision Trees
+  - KNN
+  - Regression / Logistic Regression
+  - Overfitting
+  - Cross Validation
+  - Unsupervised Learning
+  - Similarity and Clustering
+  - NLTP
+- Web Scraping/Crawling
+- Text Mining
+- Data-Driven Visualization
+- Extraction, Handling and Manipulation of Big Unstructured Data
+- Cloud Computing
+- Applied Business Orientation
