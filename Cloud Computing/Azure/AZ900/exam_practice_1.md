@@ -68,3 +68,35 @@
         * dedicated subnet
     * Virtual Network Gateway
         * Virtual network gateway is the Azure VPN device. Virtual network gateway needs to be located in a dedicated subnet in the Azure virtual network
+
+17. What Azure service should a company use to ensure secure and fast connectivity between on-prem systems an azure services?
+    * Azure ExpressRoute - provides fast, secure connection between on prem systems and azure services.
+
+
+18. A company is planning on hosting an application across multiple Virtual Machines on Azure. They want to ensure that the application survives a region-wide failure within Azure so that there is no loss of service. Which concept needs to be considered to fulfill this requirement?
+    * Fault Tolerance - ability of a system to continue functioning in the event of a failure. This can be achieved by deploying resources across multiple regions, so if a region goes down, the application can continue to run in another region without any loss of service.
+
+19. A developer with an application running in a virtual machine environment is planning a migration to Microsoft Azure hosting. Which Azure service will provide them with a platform to host their application?
+    * Azure App Service- PaaS that allows devs to easily build, deploy, and scale web applications and APIs. it supports multiple languages and frameworks, including .NET, Java, Node.jjs, PHP and Python. Provides various deployment options, such as Docker and Git.
+
+20. A developer is planning to create a WordPress-based website hosted on Microsoft Azure. Which Azure service could they use to quickly launch a pre-configured virtual machine environment for WordPress?
+    * Azure Marketplace - online store that offers various applications and services designed for use in Azure. Includes pre-configured virtual machine images optimized for different applications, including WordPress, by using Azure Marketplace, a developer can quickly launch a virtual machine that is already set up for WordPress, reducing the time and complexity involved in manual configuration.
+
+21. Considering a company's need for regional compliance and data residency, what approach should they adopt for their Azure Deployment?
+    * Multi-region deployment with geo-redundancy
+        * Ensures data residency and compliance across different regions while providing high availability and disaster recovery capabilities.
+
+22. For network isolation of sensitive operational data, which Azure feature should a company implement?
+    * Azure Virtual Network
+        * Provides a secure and isolated network environment, enabling users to create private networks within Azure, essential for maintaining the integrity and security of sensitive operational data
+23. A company is planning on using the Azure Firewall service. Would the Azure firewall service encrypt all network traffic sent from Azure to the internet?
+    * No - Azure VPN Gateway would. Azure firewall centrally manages and controls inbound and outbound traffic for virtual networks in Azure.
+24. A company has just set up an azure subscription and an Azure tenant. They want to implement strict policies when it comes to the security of Azure resources. They want to implement the following requirement: "Ensure that the virtual machine contributor team can only deploy virtual machines and their dependent resources"
+    * Azure RBAC - helps manage who has access to what Azure resources.
+25. You are deploying a large number of Azure virtual machines and your goal is to ensure the availability of virtual machine services even in the event of a data center failure. You decide to deploy the virtual machines to two or more availability zones. Does this meet the goal?
+    * Yes - Availability zones are physically separate data centers within an Azure region.
+26. Availability zones are used to replicate data and application to multiple regions.
+    * False - AZ replicate data and applications within a single region.
+27. Which are true regarding Azure Subscriptions
+    * A company can use resources from multiple subscriptions
+    * A single microsoft account can be used to manage multiple Azure subscriptions.
