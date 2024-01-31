@@ -100,3 +100,9 @@
 27. Which are true regarding Azure Subscriptions
     * A company can use resources from multiple subscriptions
     * A single microsoft account can be used to manage multiple Azure subscriptions.
+28. Which security feature would aid in determining current identity practices and providing helpful recommendations for improvements?
+    * Azure AD Security Score. 
+        * Percentage that functions as an indicator of how aligned you are with Microsoft's best practice recommendations for security.
+        * Objectively measures security posture.
+        * Helps plan identity security improvements
+        * Helps review the success of improvements.
