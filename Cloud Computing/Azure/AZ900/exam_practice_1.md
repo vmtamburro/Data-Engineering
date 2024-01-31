@@ -106,3 +106,10 @@
         * Objectively measures security posture.
         * Helps plan identity security improvements
         * Helps review the success of improvements.
+29. A company has an Azure web app. They need to manage the settings of the web app from an iPhone. What two Azure management tools can they use?
+    * the Azure Portal
+    * Azure Cloud Shell (accessible from a web browser or mobile app)
+30. Which cloud model can be used to connect to an on-premises server?
+    * Private, hybrid and public.
+31. A company has decided to migrate its email services to a Software as a Service Solution. They are considering Microsoft Office 365 as their SaaS provider. They want to understand the shared responsibility model for security and data protection in a SaaS environment. Which of the following statements accurately describes the shared responsibility for security and data protection in a SaaS model?
+    * The SaaS provider is responsible for securing the infrastructure, while the customer is responsible for securing their data.
