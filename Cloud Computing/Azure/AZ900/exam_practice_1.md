@@ -115,3 +115,10 @@
     * The SaaS provider is responsible for securing the infrastructure, while the customer is responsible for securing their data.
 32. A company is planning to store a large amount of data in Azure Blob Storage and they have specific requirements regarding data access, frequency, and performance. They want to ensure that frequently accessed data is readily available with low latency, while infrequently accessed data can be stored at a lower cost. Which Azure Blob storage option should they choose to meet these requirements?
     * Hot Storage - offers different tiers to cater to varying data access patterns and cost requirements. Hot storage is optimized for frequently accessed data that requires low latency and quick access. It is suitable for scenarios where data needs to be readily available for immediate retrieval and processing.
+33. Which of the following statements is true?
+    * Azure functions is PaaS
+    * Microsoft Intune is SaaS
+    * Azure Disk Storage is IaaS
+    * Azure Virtual Machine is PaaS
+35. You are considering adopting Azure Cloud services for your organization's critical workloads. As part of your evaluation you want to understand the benefits and assurances provided by Azure's service-level agreement (SLA). Which of the following options correctly defines what an SLA in Azure encompasses?
+    * The performance standards tha Microsoft commits for you, the customer. An Azure SLA outlines the performance commitments and guarantees provided by Microsoft for its Azure services. It defines the level of availability, uptime, reliability, and response times that customers can expect from Azure Services.
