@@ -126,10 +126,18 @@
 36. Azure Monitor can monitor the performance of on-premises computers. Is this statement true?
     No - Azure Monitor maximizes the availability and performance of your applications 
     
-37. A large company has approximately 200 machines in its on-premises environment. They are planning to expand their infrastructure without having to speend a lot of money or time. Which of the following actions may they take to meet this requirement?
+37. A large company has approximately 200 machines in its on-premises environment. They are planning to expand their infrastructure without having to spend a lot of money or time. Which of the following actions may they take to meet this requirement?
 
 - Have a hybrid architecture. 
 
 38. True or false, Microsoft Defender for Cloud can be used to collect VM firewall logs.
  
  - False. Microsoft defender for cloud is a cloud-native security solution powered by Microsoft. Focuses on protecting cloud resources. Des not specifically collect VM firewall logs. For this you would want to use Azure Monitor.
+
+ 39.  An org is considering implementing password-less authentication options for their Azure AD environment. They are exploring the available options provided by Microsoft Azure and Azure Government. Which of the following pwdless auth options are available and integrated with Azure AD?
+    - Microsoft Authenticator
+    - FIDO2 Security Keys
+    - Windows Hello for Business
+
+40. Which of the following statements regarding an Azure storage account is true?
+    - Data that is stored in an Azure storage account automatically has at least three copies.
