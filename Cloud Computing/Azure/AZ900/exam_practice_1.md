@@ -122,3 +122,14 @@
     * Azure Virtual Machine is PaaS
 35. You are considering adopting Azure Cloud services for your organization's critical workloads. As part of your evaluation you want to understand the benefits and assurances provided by Azure's service-level agreement (SLA). Which of the following options correctly defines what an SLA in Azure encompasses?
     * The performance standards tha Microsoft commits for you, the customer. An Azure SLA outlines the performance commitments and guarantees provided by Microsoft for its Azure services. It defines the level of availability, uptime, reliability, and response times that customers can expect from Azure Services.
+
+36. Azure Monitor can monitor the performance of on-premises computers. Is this statement true?
+    No - Azure Monitor maximizes the availability and performance of your applications 
+    
+37. A large company has approximately 200 machines in its on-premises environment. They are planning to expand their infrastructure without having to speend a lot of money or time. Which of the following actions may they take to meet this requirement?
+
+- Have a hybrid architecture. 
+
+38. True or false, Microsoft Defender for Cloud can be used to collect VM firewall logs.
+ 
+ - False. Microsoft defender for cloud is a cloud-native security solution powered by Microsoft. Focuses on protecting cloud resources. Des not specifically collect VM firewall logs. For this you would want to use Azure Monitor.
