@@ -166,4 +166,37 @@
 46. You are the administrator of an Azure subscription for a company that provides software services to its customers. As part of your role, you need to monitor and manage the costs associated with the Azure resources used by the company. You want to identify the most appropriate tool to help you track and optimize costs effectively. Which tool in Azure should you use to monitor and optimize costs associated with Azure Resources?
     - Azure Cost Management and Billing.
 
-47. 
+47. Which service provides the ability to manage access and policies across multiple subscriptions?
+    - Azure Management Groups.
+
+48. Which of the following statements is true about a Platform as a Service solution that hosts web apps in Azure?
+    - Additional memory can be added to the solution by changing the pricing tier?
+
+49. A company wants to securely move large amounts of data to Azure by shipping the drives using Azure Import/Export Service. What two things does the company need to do to prepare their drives for an import job?
+     - A Driveset CSV file (list of disks to which the drive letters are mapped so the tool can correctly pick the list of disks to be prepared)
+     - A Dataset CSV file (list of directories/files to be copied to target drives)
+
+50. Your company plans to deploy several custom applications to Azure. The applications will provide invoicing services to the customers of the company. Each application will have several prerequisite applications and services installed. You need to recommend a cloud deployment solution for all the applications. What should you recommend?
+     - Infrastructure as a service.
+
+
+51. A team of developers at a software development company plans to deploy, and then remove, 50 customized virtual machines each week. 30 of the virtual machines run Windows Server 2016 and 20 of the virtual machines run Ubuntu Linux.An Azure service is required to minimize the administrative effort required to deploy and remove the virtual machines. What Azure service best fits the requirement?
+     - Azure DevTest Labs
+        - Quickly provision environments
+        - Easily integrate deployment pipeline with DevTest Labs to provision on-demand environments
+        - Scale up your load testing by provisioning multiple test agents and create pre-provisioned environments for training and demos.
+    
+52. A company needs the ability to detect and diagnose abnormalities in web applications. Which of the following services would be suitable for this requirement?
+    - Azure App Insights.
+
+53. Which of the following best describes the feature provided by Azure Site Recovery
+    - Disaster recovery for Virtual Machines.
+
+54. Is all data that is copied onto an Azure Storage Account backed up automatically to another Azure Data Center?
+    - No. LRS - maintains 3 copies of the data. GRS has cross-regional replication.
+
+55. You have a virtual machine named VM1 that runs Windows 2016 in the East US Azure Region. Which Azure Service should you use from the Azure Portal to view Service Failure Notifications that can affect the availability of VM1
+     - Azure Virtual Machines - there is a named Maintenance Status.
+
+56. Which of the following statements is true about PaaS solution that hosts web apps in Azure?
+     - Provides no control over the operating systems that host applications.
