@@ -151,4 +151,19 @@
 42. You have a VM and want to encrypt its disks. What is the first step?
     - Create an encryption key
 
-43. 
+43. Wht are the different tiers of Azure web
+    - Standard - small-scale apps with no SSL support or custom domain support
+    - Basic - SSL support and up to 10 GB of storage. Does not include auto-scaling or deployment slots
+    - Standard - provides features such as auto-scaling, deployment slots, and custom domain support. Includes SSL support and up to 50 GB of storage
+    - Free tier provides limited functionality and is not suitable for a web app that is publicly accessible.
+
+44. A developer recently signed up for a Free tier Azure account, which Azure subscription is automatically included with their account?
+    - Basic - basic support plan includes unlimited support requests relating to billing and subscription management, and gives you access to the Azure Advisor service which provides free guidance on Azure best practices. It's available to all Azure customers at no cost.
+
+45. What can Cost Management be applied to?
+    - Cost Management can be applied to management groups. 
+
+46. You are the administrator of an Azure subscription for a company that provides software services to its customers. As part of your role, you need to monitor and manage the costs associated with the Azure resources used by the company. You want to identify the most appropriate tool to help you track and optimize costs effectively. Which tool in Azure should you use to monitor and optimize costs associated with Azure Resources?
+    - Azure Cost Management and Billing.
+
+47. 
