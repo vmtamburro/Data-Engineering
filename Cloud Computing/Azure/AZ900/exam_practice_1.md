@@ -61,7 +61,7 @@
     * Azure Container Instances - lets you run containers on-demand without having to manage any underlying infrastructure, as opposed to Azure Kubernetes Service, which involves managing underlying infrastructure. 
 
 15. Which of the following is a software as a service (SaaS)?
-    * Micrsoft Intune
+    * Microsoft Intune
 
 16. You have an Azure environment that contains multiple Azure virtual machines. You plan to implement a solution that allows the client computers on your on-premises network to connect with Azure virtual machines. Which two resources should be included in recommendation?
     * Gateway Subnet 
@@ -119,7 +119,7 @@
     * Azure functions is PaaS
     * Microsoft Intune is SaaS
     * Azure Disk Storage is IaaS
-    * Azure Virtual Machine is PaaS
+    * Azure Virtual Machine is not PaaS
 35. You are considering adopting Azure Cloud services for your organization's critical workloads. As part of your evaluation you want to understand the benefits and assurances provided by Azure's service-level agreement (SLA). Which of the following options correctly defines what an SLA in Azure encompasses?
     * The performance standards tha Microsoft commits for you, the customer. An Azure SLA outlines the performance commitments and guarantees provided by Microsoft for its Azure services. It defines the level of availability, uptime, reliability, and response times that customers can expect from Azure Services.
 
@@ -141,3 +141,14 @@
 
 40. Which of the following statements regarding an Azure storage account is true?
     - Data that is stored in an Azure storage account automatically has at least three copies.
+
+
+41. what advantages does high availability bring to cloud computing?
+    - Enables organizations to easily scale their resources based on their needs
+    - Allows for redundancy of resources, ensuring that if one resource fails, another can take its place without interruption
+    - Enables load balancing across multiple resources, preventing overloading of any single resource.
+
+42. You have a VM and want to encrypt its disks. What is the first step?
+    - Create an encryption key
+
+43. 
