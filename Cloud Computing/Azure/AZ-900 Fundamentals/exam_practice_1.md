@@ -222,4 +222,31 @@
 
 63. Which of the statements is true regarding Azure Sphere?
     - Azure Sphere is a software and hardware solution that provides communication and security features for IoT devices.
-        
+
+64. A company is experiencing challenges in monitoring and analyzing logs from its distributed systems, including on-premises servers and cloud-based resources. They want to centralize log management and gain insights into system performance and security.
+
+Which Azure service should they consider to address their log monitoring and analysis requirements?
+    - Azure Log Analytics
+
+65. You are a cloud architect responsible for managing Azure resources for your organization. You need to understand the factors that can affect costs in Azure to optimize resource allocation and budgeting.
+
+Which of the following factors can affect costs in Azure? Select all that apply.
+
+    - Storage Capacity and data transfer
+    - Virtual Machine Sizes and Configurations
+    - Network bandwidth and latency
+
+66. Which Azure Feature allows you to identify resources that are associated with specific cost centers?
+    - Azure Tags. 
+
+67. Which statement is true regarding assigning tags to Azure resources?
+    - If you assign tags to a resource group, the resources in the resource group do not inherit those tags.
+
+68. What does Azure guarantee in their SLA?
+    - Uptime
+    
+69. What are Azure Virtual Machine Scale Sets?
+    - A feature that allows you to scale up and down the number of virtual machines in a group based on demand.
+
+
+
