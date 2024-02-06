@@ -149,7 +149,7 @@
     - Enables load balancing across multiple resources, preventing overloading of any single resource.
 
 42. You have a VM and want to encrypt its disks. What is the first step?
-    - Create an encryption key
+    - Create an Azure Key Vault
 
 43. Wht are the different tiers of Azure web
     - Standard - small-scale apps with no SSL support or custom domain support
