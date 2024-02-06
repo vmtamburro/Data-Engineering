@@ -200,3 +200,26 @@
 
 56. Which of the following statements is true about PaaS solution that hosts web apps in Azure?
      - Provides no control over the operating systems that host applications.
+
+
+57. For storing and efficiently accessing x company data, they should  utilize
+    - Blob storage - large amts of unstructured data.
+
+58. What Azure service would best suit the need for a secure and efficient network connecting BlueWave's fleet and international offices?
+    - Azure Virtual Network (VNet) provides a secure and isolated network in the cloud. Ideal for creating private network topology, connecting securely with on-prem datacenters, and linking various resources like BlueWave's fleet and international offices.
+
+59. A dev is planning to create an event driven application hosted on Microsoft Azure. Which of the following Azure services provides a platform for collecting events from multiple sources and easily relaying them to an application?
+    - Azure Event Grid - allows you to easily build applications with event-based architectures. First, select the Azure resource you would like to subscribe to, and then give the event handler or WebHook endpoint to send the event to. Event Grid has built-in support for events coming from Azure services, like storage blobs and resource groups. Event Grid also has support for your own events, using custom topics.
+
+60. You plan to extend your company's (existing, on-prem) network to Azure. The network contains a VPN appliance that uses an IP address of xxx.xxx.xxx.x. You need to create an Azure resource that defines the VPN appliance in Azure. Which Azure resource should you create?
+    - Local network gateway. The VPN appliance is already present on the on-premises network and needs to be defined in Azure, so a local network gateway should be created to represent the on-premises VPN appliance in Azure.
+
+61. A company is hosting a website on Azure. They want to use Azure DNS for their domain name management and configure DNS records to route traffic to their website. Which of the following options correctly describes the role of Azure DNS in the scenario?
+    - Azure DNS is responsible for managing the company's domain name.
+
+62. Which of the following statements is true about data stored in Azure storage account?
+    - Data is automatically replicated at least three times within the same region.
+
+63. Which of the statements is true regarding Azure Sphere?
+    - Azure Sphere is a software and hardware solution that provides communication and security features for IoT devices.
+        
