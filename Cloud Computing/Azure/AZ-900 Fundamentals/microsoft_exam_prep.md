@@ -18,3 +18,27 @@
 
 7. What should you proactively review and act on to avoid service interruptions such as retirements and breaking changes?
     - health advisories
+
+8. Deploying and configuring cloud-based resources quickly as business requirements change is called
+    - agility
+
+9. Select the answer that correctly completes the sentence: Increasing the capacity of an application by adding virtual machines is called
+    - horizontal scaling
+
+10. In a region pair, a region is paired with another region in the same
+    - availability zone
+
+11. Which two services are provided by Microsoft Entra?
+    - authentication
+    - SSO
+
+12. Which two factors affect Azure costs?
+    - resource usage
+    - resource location
+
+13. What should you use to access Azure Cloud Shell?
+    - a web browser
+
+14. You need to review the RCA for a service outage that occurred last week. Where should you look for the report?
+    - Azure Service Health
+
