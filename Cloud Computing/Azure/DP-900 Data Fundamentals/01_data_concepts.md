@@ -164,6 +164,37 @@ Samir,Nadoy,samir@northwind.com
 
 ## Explore Databases
 
+* Database is used to define a central system in which data can be stored and queried. 
+* In a professional data context, it is a dedicated system for managing data records rather than files.
+* Relational Databases
+    * Used to store and query structured data. Data is stored in tables that represent entities such as customers, products, or sales orders.
+    * Each instance of an entity is assigned a primary key that uniquely identifies it.
+    * These keys are used to reference the entity instance in other tables.
+    * Customer's primary key can be referenced in a sales order record to indicate which customer placed the order.
+    * Use of keys to reference data entities enables a relational database to be normalized
+        * elimination of duplicate values so that details of an individual customer are stored only once, not for each sales order the customer places.
+    * Tables are managed and queried using Structured Query Language (SQL) which is based on an ANSI standard. 
+    * Similar across multiple database systems
+
+![alt text](image-2.png)
+
+* Non-relational databases
+    * Data management systems that don't apply a relational schema to the data.
+    * Non-relational databases are often referred to as NoSQL database, even though some support a variant of the SQL language.
+    * Four common types of Non-Relational database commonly in use
+        * Key-Value Database
+            * Each record consists of a unique key and associated value which can be in any format
+                * ![alt text](image-3.png)
+        * Document Databases
+            * Specific form of key-value database in which the value is a JSON document (which the system is optimized to parse and query)
+                *  ![alt text](image-4.png) 
+        * Column family databases
+            * Store tabular data compromising of rows and columns, but you can divide the columns into groups known as column-families. Each column family holds a set of columns that are logically related to each other
+                * ![alt text](image-5.png)
+        * Graph Databases
+            * Store entities as nodes with links to define relationships between them
+                * ![alt text](image-6.png)
+
 ## Explore Transactional Data Processing
 
 ## Explore Analytical Data Processing
