@@ -1,0 +1,1 @@
+https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900
