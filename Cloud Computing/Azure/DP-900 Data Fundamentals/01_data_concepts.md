@@ -1,6 +1,9 @@
-# Explore Data Concepts
+[DP-900 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-900/)
 
-## Identify Data Formats
+
+# [Explore Data Concepts](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-core-data-concepts/)
+
+## [Identify Data Formats](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats)
 
 * Data - collection of facts such as numbers, descriptions, and observations used to record information. 
 * Data structures often represents entities that are important to an organization.
@@ -84,7 +87,7 @@
 ![alt text](image-1.png)
 
 
-## Export File Storage
+## [Export File Storage] (https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/3-file-storage)
 
 * The ability to store data in files is a core element of any computing system.
     * Hard Disk Storage
@@ -162,7 +165,7 @@ Samir,Nadoy,samir@northwind.com
 
 
 
-## Explore Databases
+## [Explore Databases](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/4-databases)
 
 * Database is used to define a central system in which data can be stored and queried. 
 * In a professional data context, it is a dedicated system for managing data records rather than files.
@@ -195,7 +198,33 @@ Samir,Nadoy,samir@northwind.com
             * Store entities as nodes with links to define relationships between them
                 * ![alt text](image-6.png)
 
-## Explore Transactional Data Processing
+## [Explore Transactional Data Processing](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing)
+
+* Transactional data processing is the primary function of business computing
+* Records transactions that encapsulate specific events that the organization wants to track
+* Transaction could be financial
+  * Movement of money between accounts in banking system
+* Transaction could be part of a retail system
+  * Tracking payments for goods and services from customers
+* Transaction is a small discrete unit of work
+* Transactional systems are high-volume, handling millions of transactions in a single day
+* Data being processed has to be accessible very quickly
+* Work performed by transactional systems is referred to OLTP or Online Transactional Processing.
+  * Rely on a database system in which database is optimized for both read/write operations in order to support CRUD
+    * Create, Retrieve, Update, Delete
+  * Operations are applied transactionally in a way that ensures the integrity of the data stored in the database
+  * To accomplish this, OLTP systems enforce transactions that support ACID semantics
+    * Atomicity 
+      * Each transaction is a single unit which succeeds or fails completely
+      * Transaction involved in debiting funds from one account and crediting the same amount to another account must complete both actions
+      * If either action can't be completed, the other action must fail
+    * Consistency
+      * Transactions can only take data in the database from one valid state to another. 
+      * Example: Transfer of funds transaction must reflect the transfer of funds from one account to another.
+    * Isolation
+      * Concurrent transactions cannot interfere with one another, and must result in a consistent database state.
+    * Durability
+      * When a transaction has been committed, it will remain committed. After the account transfer transaction has been completed, the revised account balances are persisted so that even if the database system were to be switched off, the committed transaction would be reflected when it is switched on again.
 
 ## Explore Analytical Data Processing
 
