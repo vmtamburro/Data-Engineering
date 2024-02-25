@@ -87,7 +87,7 @@
 ![alt text](image-1.png)
 
 
-## [Export File Storage] (https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/3-file-storage)
+## [Export File Storage](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/3-file-storage)
 
 * The ability to store data in files is a core element of any computing system.
     * Hard Disk Storage
@@ -270,7 +270,25 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
 * Fulfill different roles when managing using and controlling data
 * Various roles that organizations often apply to data professionals, tasks and responsibilities associated with these roles, and Azure services used to perform them.
 
-## Explore Job Roles in the World of Data
+## [Explore Job Roles in the World of Data](https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles)
+* Wide variety of roles involved in managing, controlling, and using data. 
+* some are business oriented, some engineering, some are research, and some are hybrid roles that combine different aspects of data management.
+* Your org may define roles differently or give them different names.
+* Different Roles are
+
+* Database Administrator
+  * Manage database, assign permissions to users, store backup copies of data, and restore data in the event of failure
+  * Responsible for the design, implementation, maintenance, and operational aspects of on-premises and cloud-based database systems. 
+  * Responsible for overall availability and consistent performance and optimization of databases
+  * Work with stakeholders to implement policies, tools and processes for backup and recovery plans to recover following a natural disaster or human-made error
+  * Database administrator is also responsible fo managing the security of the data in the DB, granting privileges, or granting or denying access to users as appropriate.
+* Data Engineer
+  * Manage infrastructure and process for data integration across the organization, applying data cleaning routines, identifying data governance rules, and implementing pipelines to transfer and transform data between systems.
+  * Collaborates with stakeholders to design and implement data-related workloads, including data ingestion pipelines, cleansing and transformation activities, and data stores for analytical workloads.
+  * Use a wide range of data platform technologies, including relational and non-relational databases, file store, an data streams.
+* Data Analyst
+  * Explore and analyze data to create visualizations and charts that enable organizations to make informed decisions.
+  * Enables businesses to maximize the value of their data assets. They're responsible for exploring data to identify trends and relationships, designing and building analytical models, and enabling advanced analytics capabilities through reports and visualizations. A data analyst processes raw data into reliant insights based on identified business requirements to deliver relevant insights.
 
 
 ## Identify Data Services
