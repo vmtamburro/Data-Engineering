@@ -212,6 +212,7 @@ Samir,Nadoy,samir@northwind.com
 * Work performed by transactional systems is referred to OLTP or Online Transactional Processing.
   * Rely on a database system in which database is optimized for both read/write operations in order to support CRUD
     * Create, Retrieve, Update, Delete
+  * OLTP systems are used to support live applications that process business data - often referred to as line of business (LOB) applications.
   * Operations are applied transactionally in a way that ensures the integrity of the data stored in the database
   * To accomplish this, OLTP systems enforce transactions that support ACID semantics
     * Atomicity 
@@ -226,7 +227,7 @@ Samir,Nadoy,samir@northwind.com
     * Durability
       * When a transaction has been committed, it will remain committed. After the account transfer transaction has been completed, the revised account balances are persisted so that even if the database system were to be switched off, the committed transaction would be reflected when it is switched on again.
 
-## Explore Analytical Data Processing
+## [Explore Analytical Data Processing](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/6-analytical-processing)
 
 
 # Explore Data Roles and Services
