@@ -229,6 +229,39 @@ Samir,Nadoy,samir@northwind.com
 
 ## [Explore Analytical Data Processing](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/6-analytical-processing)
 
+* Uses read-only (or read-mostly) systems that store vast volumes of historical data or business metrics.
+* Analytics can be based on a snapshot of the data at a given point in time, or a series of snapshots
+* The specific details for an analytical processing system can vary between solutions, but a common architecture foo enterprise-scale analytics looks like the following:
+
+![alt text](image-7.png)
+
+1. Operation data is extracted, transformed, and loaded (ETL) into data lake for analysis
+2. Data is loaded into a schema of tables, typically in a Spark-based data alehouse with tabular abstractions, over files in the data lake, or data warehouse with a fully relational SQL engine
+3. Data in the data warehouse may be aggregated an loaded into an online analytical processing (OLAP) model, or cube. Aggregated numeric values (measures) from fact tables are calculated for intersections of dimensions from dimension tables. For example, sales revenue might be totaled by date, customer, and product
+4. The data in the data lake, data warehouse, and analytical model can be queried to produce reports, visualizations, and dashboards.
+
+
+
+* Data lakes are common in large-scale data analytical processing scenarios, where a large volume of ile-based data must be collected and analyzed.
+* Data warehouses are an established way to store data in a relational schema tha tis optimized for read operations - primarily queries to support reporting and data visualization. 
+Data Lakehouses are a more recent innovation that combine the flexible and scalable storage of a data lake with the relational querying semantic of a data warehouse. The table schema may require some demoralization of dat in an OLTP data source (including some duplication to make queries perform faster).
+* An OLAP model is an aggregated type of data storage that is optimized for analytical workloads. Data aggregations are across dimensions at different levels. B y enabling you to drill up/down to view aggregations at multiple hierarchical levels; for example to find total sales by region, by city, or for an individual address. 
+* Different types of users might perform data analytical work at different stages of the overall architecture.
+  * Data scientists might work directly with data files in a data lake to explore and model data.
+  * Data analysts might query tables directly in the data warehouse to produce complex reports and visualizations.
+  * Business users might consume pre-aggregated data in an analytical model in the form of reports or dashboards.
+
+
+### Knowledge Check
+
+1. How is data in a relational table organized?
+- Rows and columns
+
+2. Which of the following is an example of unstructured data?
+- Audio and Video files
+
+3. What is a Data Warehouse?
+- A relational database optimized for read operations.
 
 # Explore Data Roles and Services
 
