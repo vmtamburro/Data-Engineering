@@ -263,7 +263,12 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
 3. What is a Data Warehouse?
 - A relational database optimized for read operations.
 
-# Explore Data Roles and Services
+# [Explore Data Roles and Services] (https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/1-introduction)
+
+* Amount of data systems and devices generate has increased significantly
+* New tech, roles, and approaches to working with data are affecting data professionals
+* Fulfill different roles when managing using and controlling data
+* Various roles that organizations often apply to data professionals, tasks and responsibilities associated with these roles, and Azure services used to perform them.
 
 ## Explore Job Roles in the World of Data
 
