@@ -343,3 +343,18 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
 * Azure Stream Analytics
   *  A real-time stream processing engine that captures a stream of data from an input, applies a query to extract and manipulate data from the input stream, and writes the results to an output for analysis or further processing.
   * Data engineers can incorporate Azure Stream analytics into data analytics architectures that capture steam data for ingestion into an analytical data store or for real-time visualization.
+* Azure Data Explorer
+  * Standalone service that offers the same high-performance querying of log and telemetry data as the Azure Synapse Data Explorer runtime in Azure Synapse Analytics.
+  * Data Analysts can use Azure Data Explorer to query and analyze data that includes a timestamp attribute, such as is typically found in log files and Internet-of-Things (IoT) telemetry data.
+* Microsoft Purview
+  * Provides a solution for enterprise-wide data governance and discoverability. You can use Microsoft Purview to create a map of your data and track data lineage across multiple data sources and systems, enabling you to find trustworthy data for analysis and reporting.
+  * Data engineers can use Microsoft Purview to enforce data governance across the enterprise and ensure the integrity of data used to support analytical workloads.
+* Microsoft Fabric
+  * Unified SaaS analytics platform based on open and governed lakehouse that includes functionality to support
+    * Data ingestion and ETL
+    * Data lakehouse analytics
+    * Data warehouse analytics
+    * Data Science and machine learning
+    * Realtime analytics
+    * Data visualization
+    * Data governance and Management
