@@ -291,4 +291,39 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
   * Enables businesses to maximize the value of their data assets. They're responsible for exploring data to identify trends and relationships, designing and building analytical models, and enabling advanced analytics capabilities through reports and visualizations. A data analyst processes raw data into reliant insights based on identified business requirements to deliver relevant insights.
 
 
-## Identify Data Services
+## [Identify Data Services](https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/3-data-services)
+* Azure is a cloud platform that powers apps and IT infrastructures.
+* Includes services and support to cloud solutions including transactional and analytical data workloads.
+* Azure SQL
+  * Collective Name for family of relational database solutions based on Microsoft SQL Server db engine.
+    * Azure SQL Database - fully managed PaaS database hosted in Azure
+    * Azure SQL managed Instance - hosted instance of SQL Server with automated maintenance, which allows more flexible configuration than Azure SQL DB but with more administrative responsibility for the owner
+    * Azure SQL VM - virtual machine with an installation of SQL Server, allowing maximum configurability with full management responsibility
+    * DBAs provision and manage Azure SQL database systems to support LOB applications that need to store transactional data
+    * Data Engineers may use Azure SQL database systems as sources for data pipelines that perform ETL operations to ingest the transactional data into an analytical system
+    * Data analysts may query Azure SQL databases directly to create reports. In large orgs, the data is generally combined from data from other sources in an analytical data store to support enterprise analytics.
+* Azure Database for open-source relational databases
+  * Managed services for open-source database management systems
+    * Azure Database for MySQL - commonly used in Linux, Apache, MySQL, and PHP (LAMP) stack apps
+    * Azure Database for MariaDB - newer db management system, created by original developers of MySQL. Database engine has been written and optimized to improve performance. MariaDB offers compatibility with Oracle Database (another popular commercial database management system)
+    * Azure Database for PostgreSQL-a hybrid relational-object database. You can store data in relational tables, but a PostgreSQL database also enables you to store custom data types, with their own non-relational properties.
+    * As with Azure SQL database systems, open-source relational databases are managed by DBAs to support transactional applications, and provide a data source for data engineers building pipelines for analytical solutions and data analysts creating reports.
+* Azure Cosmos DB
+  * Global-Scale Non-Relational (NoSQL) database system that supports multiple application programming interfaces (APIs), enabling you to store and manage data as JSON documents, key-value pairs, column-families, and graphs
+  * Instances can be provisioned and managed by a DBA, but often software developers manage NoSQL data storage as part of the overall application architecture.
+  * Data engineers often need to integrate Cosmos DB data sources into enterprise analytical solutions that support modeling and reporting by data analysts.
+* Azure Storage
+  * Azure Service that enables you to store data in:
+    * Blob containers - scalable cost-effective storage for binary files
+    * File shares - network file share such as you typically find in corporate networks
+    * Tables - key-value storage for applications that need to add read and write data values quickly
+    * Data engineers use Azure Storage to host data lakes - which are blob storage with a hierarchical namespace that enables files to be organized in folders in a distributed file system.
+* Azure Data Factory
+  * An Azure service that enables you to define and schedule data pipelines to transfer and transform data. You can integrate your pipelines with other Azure services, enabling you to ingest data from cloud data stores, process the data using cloud-based compute, and persist the results in another data store.
+  * Used by data engineers to build ETL solutions that populate analytical data stores with data from transactional systems across the organization.
+* Azure Synapse Analytics
+  * PaaS solution for data analytics that provides a single service interface for multiple analytical capabilities, including:
+    * Pipelines - based on the same tech as Azure Data Factory
+    * SQL - highly scalable SQL database engine, optimized for data warehouse workloads
+    * Apache Spark - open-source distributed data processing system that supports multiple programming languages and APIs including Java, Scala, Python, and SQL
+    * Azure Synapse Data Explorer -high-performance data analytics solution that is optimized for real-time querying of log and telemetry data using Kusto Query Language (KQL)
