@@ -340,3 +340,6 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
     * Apache HBase - an open-source system for large-scale NoSQL data storage and querying.
     * Apache Kafka - a message broker for data stream processing
   * Data Engineers can use HDInsight to support big data analytics workloads that depend on multiple open-source technologies.
+* Azure Stream Analytics
+  *  A real-time stream processing engine that captures a stream of data from an input, applies a query to extract and manipulate data from the input stream, and writes the results to an output for analysis or further processing.
+  * Data engineers can incorporate Azure Stream analytics into data analytics architectures that capture steam data for ingestion into an analytical data store or for real-time visualization.
