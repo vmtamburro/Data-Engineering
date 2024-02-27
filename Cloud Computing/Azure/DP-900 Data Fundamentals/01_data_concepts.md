@@ -327,3 +327,9 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
     * SQL - highly scalable SQL database engine, optimized for data warehouse workloads
     * Apache Spark - open-source distributed data processing system that supports multiple programming languages and APIs including Java, Scala, Python, and SQL
     * Azure Synapse Data Explorer -high-performance data analytics solution that is optimized for real-time querying of log and telemetry data using Kusto Query Language (KQL)
+  * Data engineers can use Synapse analytics to create a unified data analytics solution that combines data ingestion pipelines, data warehouse storage, and data lake storage through a single service.
+  * Data analysts can use SQL and Spark pools through interactive notebooks to explore and analyze data and take advantage of integration with services such as Azure Machine Learning and Microsoft Power BI to create data models and extract insights from the data.
+* Azure Databricks
+  *  Azure-integrated version of the popular Databricks platform, which combines the Apache Spark data processing platform with SQL database semantics and an integrated management interface to enable large-scale analytics.
+  * Data engineers can use existing Databricks and Spark skills to create analytical data stores in Azure Databricks
+  * Data Analysts can use the native notebook support in Azure Databricks to query and visualize data in an easy to use web-based interface.
