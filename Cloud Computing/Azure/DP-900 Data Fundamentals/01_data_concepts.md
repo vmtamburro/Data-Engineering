@@ -333,3 +333,10 @@ Data Lakehouses are a more recent innovation that combine the flexible and scala
   *  Azure-integrated version of the popular Databricks platform, which combines the Apache Spark data processing platform with SQL database semantics and an integrated management interface to enable large-scale analytics.
   * Data engineers can use existing Databricks and Spark skills to create analytical data stores in Azure Databricks
   * Data Analysts can use the native notebook support in Azure Databricks to query and visualize data in an easy to use web-based interface.
+* Azure HDInsight
+  * Service that provides Azure-hosted clusters for popular Apache Open-Source Big Data Processing Technologies including:
+    * Apache Spark - a distributed data processing system that supports multiple programming languages and APIs, including Java, Scala, Python, and SQL
+    * Apache Hadoop - a distributed system that used MapReduce jobs to process large volumes of data efficiently across multiple cluster nodes. MapReduce jobs can be written in Java or abstracted by interfaces such as Apache Hive - a SQL-based API that runs on Hadoop
+    * Apache HBase - an open-source system for large-scale NoSQL data storage and querying.
+    * Apache Kafka - a message broker for data stream processing
+  * Data Engineers can use HDInsight to support big data analytics workloads that depend on multiple open-source technologies.
