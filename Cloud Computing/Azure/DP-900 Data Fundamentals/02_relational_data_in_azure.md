@@ -77,12 +77,43 @@ Example:
             * DELETE
 
 
-## [Describe Database Objects]()
+## [Describe Database Objects](https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/5-database-objects)
+* Other structures that help to optimize data organization
+* Views
+    * virtual table based on the results of a SELECT query
+* Stored Procedures
+    * Defined SQL statementsthat can be run on command. 
+* Indexes
+    * Helps to search for data in a table
+    * Like an index in the back of a book
+    * Specify a column from the table, and the index contains a copy of this data in a sorted order, with pointers to the corresponding rows in the table
+    * For a table containing few rows, using the indeex is probably not more efficient than reading the entire table and finding rows requested. With tables with a lot of rows, index can dramatically improve the performance of queries.
+
+
+Example: 
+
+![alt text](image-9.png)
+
+
 
 
 # [Explore Relational Database Services in Azure](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/)
 
-## [Describe Azure SQL services and capabilities]()
+* Azure supports multiple db services, enabling  you to run popular relational database management systems such as SQL server, PostgreSQL, and MySQL in the cloud
+* Most Azure database services are fully managed, freeing up valuable time you'd otherwise spend managing your db
+* Built in Security
+* Automatic Monitoring and Threat Detection
+* Automatic performance tuning
+* Guaranteed Availability
+
+## [Describe Azure SQL services and capabilities](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql)
+
+* Azure SQL is a collective term for a family of MS SQL Server based services in Azure
+    * SQL Server on Azure Virtual machines
+        * Virtual Machine running in Azure with an installation of SQL Server
+        * The use of a VM makes this option an IaaS solution that virtualize  hardware, infrastructure for compute, storage, and networking in Azure.
+        * Great option for "lift and shift" migration of existing on-prem SQL Server installations to the cloud.
+
 
 ## [Describe Azure services for open-source databases]()
 
