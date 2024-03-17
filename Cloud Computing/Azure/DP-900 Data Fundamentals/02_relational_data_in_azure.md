@@ -42,7 +42,40 @@ Example:
 * Relational Database Management System (RDBMS) can enforce referential integrity to ensure that a value entered into a fk field has an existing corresponding primary key.
 * In some cases a key can be defined as a composite key, or a unique combination of multiple columns
 
-## [Explore SQL]()
+## [Explore SQL](https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/4-query-with-sql)
+
+* SQL stands for Structured Query Language and is used to communicate with a relational database.
+* It's the standard language for relational database management systems. 
+* SQL statements are used to perform tasks such as update data in a database or retrieve data from a database.
+* Some common relational database management systems that use SQL include Microsoft SQL server, MySQL, PostgreSQL, MariaDB, and Oracle
+* SQL was originally standardized by ANSI and ISO. Standard has been extended several times as db vendors have added new features to their systems.
+* SQL statements such as SELECT, INSERT, UPDATE, DELETE, CREATE, and DROP
+* Many db management system have their own proprietary extensions to handle the specifics
+* MS SQL Server and Azure Database services are based on SQL Server db engine that uses Transact-SQL
+* PostgreSQL and MySQL have their own versions of these features.
+* Popular Dialects
+    * Transact-SQL
+    * pgSQL - (PostgreSQL)
+    * PL/SQL - Oracle. PL/SQL stands for Procedural Language/SQL
+* SQL Statement Types
+    * Data Definition Language (DDL)
+        * Used to create, modify, and remove tables and other object in the database
+            * CREATE
+            * ALTER
+            * DROP
+            * RENAME
+    * Data Control Language (DCL)
+        * manage access to objects in a database by granting, denying or revoking permissions to specific users or objects
+            * GRANT
+            * DENY
+            * REVOKE
+    * Data Manipulation Language (DML)
+        * used to manipulate the rows in tables.
+            * SELECT
+            * INSERT
+            * UPDATE
+            * DELETE
+
 
 ## [Describe Database Objects]()
 
