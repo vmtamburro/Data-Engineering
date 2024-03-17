@@ -113,6 +113,20 @@ Example:
         * Virtual Machine running in Azure with an installation of SQL Server
         * The use of a VM makes this option an IaaS solution that virtualize  hardware, infrastructure for compute, storage, and networking in Azure.
         * Great option for "lift and shift" migration of existing on-prem SQL Server installations to the cloud.
+    * Azure SQL Managed Instance 
+        * PaaS option that provides 100% compatiibility with on-premSQL server insances
+        * Abstracts underlying hardware and OS
+        * Service includes automated software update management, backups, and other maintenance tasks
+        * Reduces admin burden of supporting a db server instance
+    * Azure SQL DB
+        * Fully managed, highly scalable PaaS database service that is designed for the cloud
+        * Core database0level capabilities of on-prem server and is a good option when you need to create a new application in the cloud
+    * Azure SQL Edge
+        * SQL engine that is optimized for IoT scenarios that need to work with streaming time-series data   
+
+
+![alt text](image-10.png)
+![alt text](image-11.png)
 
 
 ## [Describe Azure services for open-source databases]()
