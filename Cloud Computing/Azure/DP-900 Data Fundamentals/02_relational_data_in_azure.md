@@ -113,20 +113,60 @@ Example:
         * Virtual Machine running in Azure with an installation of SQL Server
         * The use of a VM makes this option an IaaS solution that virtualize  hardware, infrastructure for compute, storage, and networking in Azure.
         * Great option for "lift and shift" migration of existing on-prem SQL Server installations to the cloud.
+        * Replicates the db running on an on-premise hardware.
+        * Migrating is no different than moving the databases from one on-prem to another
+        * Can also use SQL Server on Azure VMs to extend existing on-prem applications to the cloud in hybrid environments
+        * Hybrid deployment - system where part of the operation run on-premises, and part in cloud. DB might be part of a larger system that runs on-premises, although db elements might be hosted in the cloud
+        * With a virtual machine you have full administrative access over the DBMS and operating system
+        * Technical Advantages
+            * Can create rapid development and test scenarios when you don't want to buy on-prem non-production SQL Server Hardware
+            * Be lift-and-shift ready for existing apps that require a fast migration to the cloud with minimal or no changes
+            * Scale up platform on which SQL server is running, by allocating more memory, CPU, and disk space to the virtual machine
+            * Resize an Azure VM without the requirement that you reinstall the software that runs on it
+        * Business Advantages
+            * Allows you to meet unique and diverse business needs
+            * Combo of on-prem and cloud-hosted deployments, using the same set of server products, dev tools and expertise 
+            * Not always easy to switch DBMS to a fully managed service. May be specific requirements that need to be satisfied in order to migrate a managed service that requires making changes to a database and the applications that use it.
     * Azure SQL Managed Instance 
         * PaaS option that provides 100% compatiibility with on-premSQL server insances
         * Abstracts underlying hardware and OS
         * Service includes automated software update management, backups, and other maintenance tasks
         * Reduces admin burden of supporting a db server instance
+        * [What is an Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql)
+        * Automates backups, software patching, db monitoring, but you have full control over security and resource allocation for databases.
+        * Depends on other Azure services such as Azure Storage for backups, Azure Event Hubs for telemetry, Entra ID for Auth, Azure Key Vault for TDE and a few Azure Platform Instances. Managed instnaces can connect to these services.
+        * All communications are encrypted and signed using certs. 
+        * Use Cases
+            * Lift-And-Shift on-prem and SQL Server instance  to the cloud without incurring Management Overhead
+            * Features not available in SQL database. If your system uses Linked Servers, Service Broker, DB Mail you should use Managed Instance.
+            * Data Migration Assistant available to check compatibility with an existing on-premises system.
+        * Business Benefits
+            * System admin to spend less time on administrative tasks
+            * Automated tasks include os system and database management system software installation and patching, dynamic instance resizing, and configuration, backups, and database replication.
+            * Azure SQL Managed Instance supports SQL Server Database engine logins and logins integrated with Microsoft Entra ID.
     * Azure SQL DB
         * Fully managed, highly scalable PaaS database service that is designed for the cloud
-        * Core database0level capabilities of on-prem server and is a good option when you need to create a new application in the cloud
+        * Core database-level capabilities of on-prem server and is a good option when you need to create a new application in the cloud
+        * Azure SQL Database Server is a logical construct that acts as a central administrative point for multiple single or pooled databases, logins, firewall rules, auditing rules, threat detection policies, and failover groups.
+        * Azure SQL database is available as a Single Database or an Elastic Pool
+            * Single Database
+                * Create and run a db server in the cloud, and you access your db through this server
+                * Microsoft manages the server, so all you have to do is configure the db, create your tables, and populate them with your data.
+                * You can scale hte db if you need more storage space, memory, or processing power.
+                * Resources are pre-allocated. You're charged per-hour for the resources you've requested.
+                * You can also specify a serverless configuration. Microsoft creates its own server, which might be shared by databases belonging to the other Azure Subscribers.
+                * Microsoft ensures the privacy of your database. Your db automatically scales and resources allocated or de-allocated as required.
+            * Elastic Pool
+                * Similar to Single Database, except that by default multiple databases can share the same resources such as memory, data storage space, and power through multiple-tenancy
+                * Resources are referred to as a pool. You create the pool, and only your databases can use the pool. 
     * Azure SQL Edge
         * SQL engine that is optimized for IoT scenarios that need to work with streaming time-series data   
 
 
 ![alt text](image-10.png)
 ![alt text](image-11.png)
+
+
 
 
 ## [Describe Azure services for open-source databases]()
