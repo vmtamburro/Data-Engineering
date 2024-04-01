@@ -159,6 +159,31 @@ Example:
             * Elastic Pool
                 * Similar to Single Database, except that by default multiple databases can share the same resources such as memory, data storage space, and power through multiple-tenancy
                 * Resources are referred to as a pool. You create the pool, and only your databases can use the pool. 
+                * You create the pool, and only your database can use the pool.
+                * This model is useful if you have databases with resource requirements that vary over time, and can help you to reduce costs.
+                * For example, your payroll database might require plenty of CPU power at the end of the month, but at other times the db might become less active. You might have another DB that is used for running reports, but it might become active for several days in the middle of the month but with a lighter load at other times.
+                * Elastic pool enables  you to use the resources available in the pool, and then release the resources once processing has completed.
+            * Use Cases
+                * Gives you the best option for low cost with minimal administration. 
+                * Isn't fully compatible with on-prem SQL Server installations. 
+                * Often used in new Cloud Projects where the application design can accommodate any required changes to applications
+                * Can use DM assistant to detect compatibility issues with databases that can impact database functionality in Azure SQL Database.
+                * [Data Migration Assistant](https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16)
+                * Often Used for
+                    * Modern Cloud Applications that need to use the latest stable SQL Server Features
+                    * Applications that require high availability
+                    * Systems with a variable load that need the DB server to scale up and down quickly
+            * Business Benefits
+                * Azure SQL DB automatically updates and patches the SQL Server Software to ensure that you're always running on the latest and most secure version of the service
+                * Scalability features of Azure SQL Database ensure tht you can increase the resources available to store and process data without having to perform a costly manual upgrade
+                * High availability guarantees
+                * Point in Time Restore
+                * Replication to different regions
+                * Advanced Threat protection
+                * Auditing of DB events
+                * Providing encryption at rest and in motion
+
+
     * Azure SQL Edge
         * SQL engine that is optimized for IoT scenarios that need to work with streaming time-series data   
 
