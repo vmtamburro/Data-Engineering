@@ -182,8 +182,6 @@ Example:
                 * Advanced Threat protection
                 * Auditing of DB events
                 * Providing encryption at rest and in motion
-
-
     * Azure SQL Edge
         * SQL engine that is optimized for IoT scenarios that need to work with streaming time-series data   
 
@@ -194,7 +192,22 @@ Example:
 
 
 
-## [Describe Azure services for open-source databases]()
+## [Describe Azure services for open-source databases](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source)
+- Azure data services are available for other popular relational database systems, including MySQL, MariaDB, and PostgreSQL. 
+- Primary reason for these services is to enable orgs that use them in on-premises apps to move to Azure quickly without making significant changes to their applications.
+- MySQL, MariaDB, and PostgreSQL are relational database management systems that are tailored for different specifications
+- MySQL - open-source db management system. Leading open source relational database for Linux, Apache, MySQL, and PHP (LAMP) Stack apps
+    - Avail in Community, Standard, and Enterprise
+- MariaDB is a newer DB Management system created by original developers of MySQL
+    - DB has been rewritten and optimized to improve performance
+    - Offers compatibility with Oracle Database 
+    - Built in support for temporal data
+    - Table can hold several versions of data, enabling an application to query the data as it has appeared at some point in the past
+- PostgreSQL is a hybrid relational-object db. 
+    - Can store relational data in tables, but also enables you to store custom data types with their own non-relational properties
+    - Extensible, you can add core modules to the db which can be run by queries. 
+    - Ability to store and manipulate geometric data, such as lines, circles, and polygons.
+    - PgSQL is the query language. Variant of the standard SQL, with features that enable you to write stored procedures that run inside the db.
 
 ## [Explore Azure Relational Database Services]()
 
