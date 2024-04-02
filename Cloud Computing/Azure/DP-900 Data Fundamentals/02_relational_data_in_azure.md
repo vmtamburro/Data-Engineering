@@ -208,6 +208,50 @@ Example:
     - Extensible, you can add core modules to the db which can be run by queries. 
     - Ability to store and manipulate geometric data, such as lines, circles, and polygons.
     - PgSQL is the query language. Variant of the standard SQL, with features that enable you to write stored procedures that run inside the db.
+- Azure Database for MySQL
+    - PaaS implementation of MmySQL in the Azure Cloud based on the MySQL community Edition
+    - Includes high availability at no additional cost and scalability as required
+    - Only pay for what  you use
+    - Auto backups are provided, with point-in-time restore
+    - Server provides connection security to enforce firewall rules and SSL connections.
+    - Can configure Lock Modes, Max Connections, and Timeouts
+    - No need to manage hardware, network, virtual servers, patches, or other underlying components
+    - Certain operations aren't available with Azure DB for MySQL. Functions concerned with security and admin. Azure manages itself
+    - Benefits
+        - High availability features built-in
+        - Predictable performance
+        - Easy scaling that responds to demand
+        - Secure data at rest and in motion
+        - Auto backups and point-in-time restore for past 35 days
+        - Enterprise-Level security and compliance with legislation
+        - Pay-As-You-Go pricing 
+        - Monitoring functionality for alerts, metrics, and logs
+- Azure Database for Maria DB
+    - Implementation of MariaDB adapted to run in Azure. Based on the MariaDB Community edition
+    - fully managed and controlled by Azure. Once you've provisioned the service and transferred data, theres no additional administration
+    - Benefits
+        - high availability
+        - predictable performance
+        - scaling as needed within seconds
+        - secured protection at rest and in motion
+        - Auto backups and point-in-time restore
+        - Enterprise-grade security and compliance
+- Azure DB for PostgreSQL
+    - PaaS implementation of PostGreSQL in the Azure cloud. Same availability, performance, scaling, security, and administrative benefits as the MySQL service
+    - Some features aren't available in Azure DB for PostgreSQL. Such as extensions for users to add sprocs in various programming languages
+    - List of avail extensions is under continuous review
+    - Azure DB for PostgreSQL Flexible Server
+        - High level of control and server configurations, and provides cost optimization controls.
+        - Fully Managed DB Service
+    - Benefits:
+        - Highly available
+        - Built in failure detection and failover mechanism
+        - pgAdmin too to manage and monitor PostgreSQL db. Can continue to use this but some server-focused functionality isn't available
+        - Azure DB for PostgreSQL records info about queries run against databases on the server, and stores them in an azure_sys db, which can be queried to monitor queries that users are running
 
-## [Explore Azure Relational Database Services]()
+## [Explore Azure Relational Database Services](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/4-exercise-provision-relational-azure-data-services?pivots=azuresql)
 
+- See [lab](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-01-sql-lab.html)
+    - Provision Azure SQL DB
+    - Use Query Editor
+    
