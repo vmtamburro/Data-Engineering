@@ -121,4 +121,11 @@
 - If an app adds a new row to the table, Azure ensures that the row is placed in the correct position in the table
 - Scheme enables an app to quickly perform point queries that identify a single row, and range queries that fetch a contiguous block of rows in a partition
 
-## [Explore Azure Storage]()
+![alt text](image-15.png)
+
+## [Explore Azure Storage](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/6-exercise-azure-storage)
+- Provision Azure Storage Account
+- Explore Blob Storage
+- Explore Data Lake Storage Gen2
+- Explore Azure Files
+- Explore Azure Tables
