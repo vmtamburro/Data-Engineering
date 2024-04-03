@@ -94,6 +94,31 @@
 
 
 
-## [Explore Azure Tables]()
+## [Explore Azure Tables](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/5-azure-tables)
+- NoSQL storage solution that makes use of tables containing key/value data items. Each item is represented by a row that contains columns for data fields that needs to be stored
+- Not like a relational database. Allows you to store semi-structured data
+- All rows must have a unique key comprised of a partition key and a row key
+- When you modify data in a table, a timestamp records the date and time the modification was made
+- The columns in the row can vary. 
+- No concept of foreign keys, relationships, stored procs, views or other objects in relational db
+- Data in Azure Table storage is usually denormalized, each row holds entire data for a logical entity
+- For example
+    - A table holding customer info might store first, last, phones, or addresses
+    - Number of fields can be different depending on the number of telephone numbers and addresses for each customer. Details recorded for each address
+    - In relational database this info would split across multiple rows in several tables
+- For fast access Azure Table Storage splits a table into partitions
+- Partitions are a mechanism for grouping related rows, based on a common property or partition key.
+- Rows that share the same partition key will be stored together
+- Partitioning not only helps organize the data, it can improve scalability and performance in the following ways
+    - Independent from each other, and can grow and shrink as rows are added to or removed from a partition.
+        - A table can contain any number of partitions
+    - Searching data can include the partition key in the search criteria. Helps to narrow the volume of data to be examined.
+        - Improves performance by reducing the amount of I/O needed to locate the data
+- The key in an Azure Table Storage comprises of two elements:
+    - Partition key that identifies the partition containing the row
+    - Row key that is unique to each row in the partition
+- Items in the same partition are stored in row key order
+- If an app adds a new row to the table, Azure ensures that the row is placed in the correct position in the table
+- Scheme enables an app to quickly perform point queries that identify a single row, and range queries that fetch a contiguous block of rows in a partition
 
 ## [Explore Azure Storage]()
