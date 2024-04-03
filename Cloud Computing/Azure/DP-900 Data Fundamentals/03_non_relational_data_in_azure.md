@@ -57,7 +57,29 @@
 
 ## [Azure DataLake Storage Gen2](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/3-azure-data-lake-gen2)
 
-## [Explore Azure Files]()
+- Azure Data Lake Storage (Gen 1) is a separate service for hierarchical data storage for analytical data lakes, used by big data analytical solutions that work with structured, semi-structured, and unstructured data stored in files.
+- Azure Data Lake Storage (Gen 2) is a newer version that is integrated into Azure Storage; enabling you to take advantage of the scalability of blob strogage and cost-control storage tiers, combined with the hierarchical system capabilities and compatibility with major analytics systems of Azure Data Lake Store
+
+![alt text](image-13.png)
+
+- Hadoop, Azure HDInsight, Azure Databricks, and Azure Synapse Analytics can mount a distributed file system hosted in Azure Data Lake Store Gen2 and use it to produce huge volumes of data
+- To create you must enable Hierarchical Namespace option of Azure Storage Account.
+- Upgrading is a one-way process.
+
+
+## [Explore Azure Files](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/4-azure-files)
+
+- Many On-Prem systems comprising a network of in-house computers make use of file shares
+- Allows you to store a file on one computer, and grant access to that file to users and apps running on other computers
+- Doesn't scale well as the number of users increases, or if the users are located at different sites
+- Azure Files is a way to create a cloud-based network share, like you would typically have in on-prem organizations.
+- By hosting file shares in Azure, organizations can eliminate hardware costs, and maintenance overhead
+- High availability and Scalability
+
+![alt text](image-14.png)
+
+
+
 
 ## [Explore Azure Tables]()
 
