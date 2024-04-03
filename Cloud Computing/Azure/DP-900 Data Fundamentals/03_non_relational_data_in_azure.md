@@ -78,6 +78,19 @@
 
 ![alt text](image-14.png)
 
+- You create Azure File storage in a storage account
+- Can share up to 100 TB of data in a single account
+- Data can be distributed across any number of file shares. 
+- Supports 2000 concurrent connections per shared file
+- Can upload files using Azure Portal or AzCopy utility
+- Can use file sync to synchronize locally cached copies of shared files
+- Two performance tiers
+    - Standard - hard disk-based hardware
+    - Premium- solid-state disks. Greater throughput but higher rate
+- Two common network share protocols
+    - Server Message Block (SMB) is commonly used across multiple operating systems
+    - Network File System (NFS) used by some Linux and macOS versions
+
 
 
 
