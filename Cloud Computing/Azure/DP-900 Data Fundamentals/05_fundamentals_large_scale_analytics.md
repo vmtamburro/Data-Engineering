@@ -39,7 +39,19 @@
     - Users who may not be tech professionals might perform self-service data analysis and reporting
     - Visualizations from the data show trends, comparisons, and KPIs and can take the form of reports, graphs, and charts
 
-## [Explore Data Ingestion Pipelines]()
+## [Explore Data Ingestion Pipelines](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/3-data-ingestion-pipelines)
+- How Data is ingested into an analytical data store from one or more sources
+
+![alt text](image-22.png)
+
+- Large scale ingestion is best implemented by creating pipelines that orchestrate ETL processes
+- You can create and run pipelines using Azure Data Factory
+- Use similar pipeline engine in Azure Synapse Analytics or Microsoft Fabric if you want to manage all of the components of data analytics solution in a unified workspace
+- Pipelines consist of one or more activities that operate on data
+- Input dataset provides the source data 
+- Activities are the flow of data that incrementally manipulates the data until an output dataset is produced
+- Pipelines can connect to external data sources to integrate with a wide variety of data services.
+
 
 ## [Explore PaaS Solutions]()
 
