@@ -52,8 +52,36 @@
 - Activities are the flow of data that incrementally manipulates the data until an output dataset is produced
 - Pipelines can connect to external data sources to integrate with a wide variety of data services.
 
+## [Analytical Data Stores](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores)
 
-## [Explore PaaS Solutions]()
+- Two common types of analytical data store
+    - Data Warehouse
+        - Relational database in which the data is stored in a schema that is optimized for data analytics rather than transactional workloads
+        - Commonly the data is transformed into a schema in which numeric values are stored in central fact tables, which are related to one or more dimension tables
+        - Represent entities by which the data can be aggregated
+        - Fact table might contain sales order data, which can be aggregated by customer, products, store, and time dimensions
+                - Easily find monthly totals sales revenue by product for each store
+                - Star Schema (Often extended into a snowflake schema by adding additional tables related to the dimension tables)
+                    - Example, product might be related to Product Categories
+        - Data Warehouse is a great choice when you have transactional data that can be organized into a structured schema of tables, and you want to use SQL to query them
+    - Data Lakehouse
+        - Distributed file system for high performance data access
+        - Spark or Hadoop are used to process queries on stored files and return data for reporting and analytics
+        - Schema-on-read approach to define tabular schemas on semi-structured data files at the point where the data is read for analysis without applying constraints when its stored
+        - Great for supporting a mix of structured, semi-structured, and unstructured data without need for schema enforcement when data is written to the store
+- Hybrid approach combines data lakes and data warehouses into data lakehouse or lakebase. 
+    - Raw data is stored as file and relational storage layer abstracts the underlying files and exposes them as tables.
+    - Can be queried using SQL
+    - SQL pools in Azure Synapse analytics include Polybase - enables you to define external tables based on files in a data lake (and other sources) and query them using SQL
+    - Synapse analytics also supports a Lake database approach in which you can use database templates to define the relational schema of your warehouse, while storing the underlying data in lake storage, separating the storage and compute for your data warehousing solution.
+    - Relatively new approach in Spark-based systems, and are enabled through technologies like Delta Lake, which adds relational storage capabilities to Spark
+        - Define Tables that enforce schemas and transactional consistency
+        - Support batch-loaded and streaming data sources
+        - Provide a SQL for API querying
+
+
+## [Explore PaaS Solutions](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/4b-platform-services)
+- 
 
 ## [Explore Data Analytics in Azure with Azure Synapse Analytics]()
 
