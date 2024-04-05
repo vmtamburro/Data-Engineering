@@ -81,7 +81,31 @@
 
 
 ## [Explore PaaS Solutions](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/4b-platform-services)
-- 
+- Three main PaaS services to implement large-scale analytical store
+    - Azure Synapse Analytics
+        - Unified e2e solution for large scale data analytics
+        - SQL server based relational data warehouse with flexibility of data lake and Apache Spark
+        - Native support for log and telemetry analytics
+        - Built in data pipelines for ingestion and transformation
+        - Can be managed through a single user interface (Azure Synapse Studio)
+            - Create notebooks in which Spark Code and markdown can be combined
+            - Synapse analytics is a great choice when you want to create a single unified analytics solution
+    - Azure Databricks
+        - Azure implementation of Databricks platform
+        - Comprehensive data analytics solution built on Apache Spark
+        - Offers native SQL capabilities as well as workload-optimized Spark Clusters for data analytics and data science
+        - Databricks provides an interactive user interface through which the system can be managed and data can be explored in interactive notebooks
+        - Due to its common use on multiple cloud platforms, you might want to consider using Azure Databricks as your analytical store if you want to use existing expertise with the platform, or if you need to operate in a multicloud environment or support a cloud-portable solution
+    - Azure HDInsight
+        - Azure service that supports multiple open-source data analytics cluster types
+        - Not as user friendly as Azure Synapse Analytics and Data Bricks
+        - Suitable option if  your analytics solution relies on multiple open-source frameworks or if you need to migrate an existing on-prem Hadoop-based solution to the cloud
+- Each of the services can be thought of as an analytical data store
+    - Provide schema and interface through which the data can be queried
+- Many of the cases data is actually stored in a data lake, and then a service is used to process the ata and run queries
+- Some solutions might even combine the use of these services
+- ETL ingestion process might copy data into the data lake, and then use one of these services to transform the data, and another to query it.
+- Pipeline might use a MapReduce job running in HDInsight or a notebook running Azure Databricks to process a large volume of data in the data ake, and then load into tables in a SQL pool in Azure Synapse analytics
 
 ## [Explore Data Analytics in Azure with Azure Synapse Analytics]()
 
