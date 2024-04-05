@@ -98,10 +98,68 @@ Sinks for stream processing
 
 
 
-## [Explore Azure Stream Analytics]()
+## [Explore Azure Stream Analytics](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/4-stream-analytics)
+- Service for complex event processing and analysis of streaming data
+    - Ingest data from an input such as Azure Event Hub, Azure IoT Hub, or Azure Storage Blob container
+    - Process the data by using a query to select, project, and aggregate data values
+    - Write the results to an output such as Azure Data Lake Gen 2, Azure SQL Database, Azure Synapse Analytics, Azure Functions, Azure Event Hub, Microsoft Power BI, or others
 
-## [Explore Apache Spark on Microsoft Azure]()
+![alt text](image-25.png)
 
-## [Explore Spark Streaming in Azure Synapse Analytics]()
+- Once started, Stream Analytics query will run perpetually, processing new data as it arrives in the input and storing results in the output
+- Azure Stream Analytics is a great technology choice when you need to continually capture data from a streaming source, filter or aggregate it, and send the results to a data store or downstream process for analytics and reporting
 
-## [Explore Realtime Analytics in Microsoft Fabric]()
+[Azure Stream Analytics](https://learn.microsoft.com/en-us/azure/stream-analytics/) Jobs and Clusters
+- Easiest way to use Stream Analytics is to create a Stream Analytics Job in an Azure Subscription, configure inputs and outputs, and define the query that the job will use to process the data
+- Query is expressed using SQL syntax and can incorporate static reference data from multiple sources to supply lookup values that can be combined with streaming data digested from an input
+- If process requirements are resource intensive, you can create a Stream Analysis cluster, which uses the same underlying processing engine as a Stream Analytics job, but in a dedicated tenant (so your processing is not affected by other customers) and with configurable scalability that enables you to define the balance of cost and throughput
+
+- [Explore Azure Stream Analytics](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-05-stream-lab.html)
+- Create Azure Resource
+- Explore Azure REsource
+- Use the resources to analyze streaming data
+
+## [Explore Apache Spark on Microsoft Azure](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/6-spark-streaming)
+
+- Distributed processing framework for large scale analytics
+    - Azure Synapse Analytics
+    - Azure Databricks
+    - Azure HDInsight
+- Spark can be use dto run code in parallel across multiple cluster nodes, enabling it to process large volumes of data efficiently
+- Can be used for both Batch and Stream processing
+- [Spark Structured Streaming](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
+    - To process streaming data on Spark, you can use the Spark Structured Streaming library, which provides an API for ingesting, processing and outputting results from perpetual streams of data
+    - Built on ubiquitous structure called dataframe which encapsulates a table of data
+    - Use the Streaming API to read data from real-time data source such as a Kafka Hub or File Store or Network Port into a "boundless" data frame that is continually populated with new data from the stream
+    - You can then define a query on the dataframe that selects, projects, or aggregates the data, often in temporal windows.
+    - Great choice for real-time analytics when you need to incorporate streaming data into a Spark Based data lake or analytical data store
+- [Delta Lake](https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake)
+    - Open Source Storage Layer that adds support for transactional consistency, schema enforcement, and other common data warehousing features into data lake storage
+    - Unifies storage for streaming and batch data which can be used in Spark to define relational tables for bot h batch and stream processing
+    - When used for stream processing, a delta lake table can be used as a streaming source for queries against real-time data or as a sink to which a stream of data is written
+    - Runtimes in Azure Synapse Analytics and Azure Databricks include support for Delta Lake
+    - Good solution when you need to abstract batch and stream processing 
+
+## [Explore Spark Streaming in Azure Synapse Analytics](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/7-exercise-spark-streaming)
+- Provision a Synapse Analytics Workspace
+- Create a Spark Pool
+- Explore Stream Processing
+- Delete Azure Resource
+
+## [Explore Realtime Analytics in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/8-fabric-realtime-analaytics)
+
+- Native support for real-time data analytics, including real-time data ingestion from multiple streaming sources
+- You can use an event-stream to capture real-time event data from a streaming source and persist it in a destination such as a table in a Lakehouse or KQL database
+- You can apply aggregations and filters to summarize the captured data. A KQL database supports tables based on the Data Explorer engine, enabling you to perform real-time analytics on the data in tables by running KQL queries
+- After capturing real-time data in a table, you can use Power BI in Microsoft Fabric to create real-time data visualizations
+
+![alt text](image-26.png)
+
+[Exercise](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-05c-fabric-realtime-lab.html)
+- Create a workspace
+- Create a KQL workspace
+- Create an event stream
+- Query real-time data in a KQL database
+- Clean up resources
+
+
