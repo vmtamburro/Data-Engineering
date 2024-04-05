@@ -107,6 +107,16 @@
 - ETL ingestion process might copy data into the data lake, and then use one of these services to transform the data, and another to query it.
 - Pipeline might use a MapReduce job running in HDInsight or a notebook running Azure Databricks to process a large volume of data in the data ake, and then load into tables in a SQL pool in Azure Synapse analytics
 
-## [Explore Data Analytics in Azure with Azure Synapse Analytics]()
+## [Explore Data Analytics in Azure with Azure Synapse Analytics](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-04-synapse-lab.html)
+- Provision Azure Synapse Analytics Workspace
+- Ingest Data
+- Use SQL Pool to Analyze Data
+- Use Spark Pool to analyze Data
 
-## [Explore Microsoft Fabric]()
+
+## [Explore Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/5b-fabric)
+- Provision Workspace
+- Create Lakehouse
+- Ingest Data
+- Query data in a lakehouse
+- Visualize Data in a lakehouse
