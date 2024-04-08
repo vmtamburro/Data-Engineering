@@ -58,4 +58,45 @@
 ![alt text](image-30.png)
 
 
-## [Considerations for Data Visualization]()
+## [Considerations for Data Visualization](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/4-data-visualizations)
+- After you've created a model, you can use it to generate data visualizations that can be included in a report
+- Many kinds of data visualization. Some commonly used and some more specialized
+- Power BI includes extensive set of built-in visualizations, which can be extended with custom and third party visualizations
+- Some common data visualizations
+- Tables and Text
+    - Simplest ay to communicate data
+    - Useful when numerous related values must be displayed, and individual text values in cards can be a useful way to show important figures and metrics
+
+![alt text](image-31.png)
+
+- Bar and Column Charts
+    - Good way to visually compare numeric values for discrete categories
+
+![alt text](image-32.png)
+
+- Line Charts
+    - Can also be used to compare categorized values, and are useful when you need to examine trends, often over time.
+
+![alt text](image-33.png)
+
+
+- Pie Charts
+    - Often used in business reports to visually compare categorized values as proportions of a total
+
+![alt text](image-34.png)
+
+- Scatter Plots
+    - Useful when you want to compare two numeric measures and identify a relationship or correlation between them
+
+![alt text](image-35.png)
+
+- Maps
+    - Great way to visually compare values for different geographic areas or locations
+
+![alt text](image-36.png)
+
+- Interactive Reports in Power BI
+    - Visual elements for related to data are automatically linked to one another and provide interactivity
+    - Selecting and individual category in one visualization will automatically filter and highlight that category in other related visualizations in the report
+
+![alt text](image-37.png)
