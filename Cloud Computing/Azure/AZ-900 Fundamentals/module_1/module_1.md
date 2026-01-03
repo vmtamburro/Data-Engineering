@@ -3,18 +3,40 @@
 ## Welcome and Exam Orientation
 
 ### What is AZ-900?
+AZ-900 is the Microsoft Azure Fundamentals certification exam. It is designed to validate foundational knowledge of cloud concepts and Azure services. This is an entry-level certification suitable for individuals new to cloud computing.
 
 ### Who should take AZ-900?
+- Non-technical professionals exploring Azure
+- IT professionals starting their cloud journey
+- Business stakeholders evaluating Azure services
+- Students or beginners interested in cloud computing
 
 ### Exam Skills Measured (High-Level)
+- **Describe Cloud Concepts:** Understand cloud principles, benefits, and models.
+- **Describe Azure Architecture and Services:** Learn about core Azure services, solutions, and management tools.
+- **Describe Azure Management and Governance:** Understand cost management, security, and compliance.
 
 ### Exam Format (Questions, Time, Passing Score)
+- **Number of Questions:** 40–60
+- **Time Limit:** 85 minutes
+- **Passing Score:** 700 out of 1000
+- **Question Types:** Multiple-choice, drag-and-drop, and case studies
 
 ### How This Course Maps to the Exam
+This course is structured to align with the AZ-900 exam objectives. Each module focuses on specific exam domains, ensuring you gain the knowledge required to pass the exam.
 
 ### How to Study for the AZ-900
+- **Microsoft Learn:** Use the free learning paths provided by Microsoft.
+- **Hands-On Practice:** Explore Azure services using the free tier.
+- **Mock Exams:** Test your knowledge with practice exams.
+- **Review Key Concepts:** Focus on shared responsibility, cloud models, and Azure services.
 
 ### Session 1 Agenda
+- Introduction to Cloud Computing
+- Cloud Service Models
+- Cloud Deployment Models
+- Azure Global Infrastructure
+- Azure Resource Organization
 
 ## Cloud Computing Fundamentals
 
@@ -56,7 +78,7 @@
 
 ### Exam Tip: Identifying Service Models
 
-## Cloud Deployument Models
+## Cloud Deployment Models
 
 ### Cloud Deployment Models Overview
 
