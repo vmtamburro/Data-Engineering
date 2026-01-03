@@ -22,9 +22,6 @@ AZ-900 is the Microsoft Azure Fundamentals certification exam. It is designed to
 - **Passing Score:** 700 out of 1000
 - **Question Types:** Multiple-choice, drag-and-drop, and case studies
 
-### How This Course Maps to the Exam
-This course is structured to align with the AZ-900 exam objectives. Each module focuses on specific exam domains, ensuring you gain the knowledge required to pass the exam.
-
 ### How to Study for the AZ-900
 - **Microsoft Learn:** Use the free learning paths provided by Microsoft.
 - **Hands-On Practice:** Explore Azure services using the free tier.
