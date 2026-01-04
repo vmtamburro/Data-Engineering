@@ -38,26 +38,51 @@ AZ-900 is the Microsoft Azure Fundamentals certification exam. It is designed to
 ## Cloud Computing Fundamentals
 
 ### What is Cloud Computing?
+Cloud computing is the delivery of computing services—such as servers, storage, databases, networking, software, and analytics—over the internet. It enables faster innovation, flexible resources, and economies of scale.
 
-### Beenfits of Cloud Computing
+### Benefits of Cloud Computing
+- **Cost Efficiency:** Pay only for what you use, reducing upfront costs.
+- **Scalability:** Adjust resources dynamically to meet demand.
+- **High Availability:** Resources are accessible when needed, supported by SLAs.
+- **Global Reach:** Access resources from anywhere in the world.
+- **Security:** Built-in security features and compliance with regulations.
 
 ### High Availability
+High availability ensures that resources and services are accessible whenever needed. Azure provides SLAs to guarantee uptime and availability.
 
 ### Scalability vs Elasticity
+- **Scalability:** The ability to increase or decrease resources to meet demand.
+  - **Vertical Scaling:** Increasing or decreasing the capabilities of a resource (e.g., upgrading a VM).
+  - **Horizontal Scaling:** Adding or removing resources (e.g., adding more VMs).
+- **Elasticity:** The ability to automatically scale resources up or down based on demand.
 
 ### Reliability & Predictability
+- **Reliability:** The ability of a system to recover from failures and continue functioning.
+- **Predictability:**
+  - **Performance Predictability:** Features like autoscaling and load balancing ensure consistent performance.
+  - **Cost Predictability:** Tools like the Azure Pricing Calculator help manage costs.
 
 ### Security & Governance Benefits
+- **Security:** Azure provides built-in security features, including protection against DDoS attacks.
+- **Governance:** Azure enables organizations to enforce compliance with corporate and regulatory standards through policies and templates.
 
 ### Manageability in the Cloud
+- **Management of the Cloud:** Automate scaling, deploy resources using templates, monitor health, and receive alerts.
+- **Management in the Cloud:** Manage resources via the Azure Portal, CLI, APIs, or PowerShell.
 
 ### Capital Expenditure (CapEx)
+CapEx refers to upfront investments in physical infrastructure, such as servers and data centers.
 
-### Operational Ependiture (OpEx)
+### Operational Expenditure (OpEx)
+OpEx refers to ongoing costs for services and products. Cloud computing operates under an OpEx model, where you pay for what you use.
 
 ### Consumption-Based Model
+The consumption-based model allows you to pay only for the resources you consume. This model helps optimize costs and scale resources as needed.
 
 ### Knowledge Check
+- What are the key benefits of cloud computing?
+- How does elasticity differ from scalability?
+- What is the difference between CapEx and OpEx?
 
 ## Cloud Service Models
 
