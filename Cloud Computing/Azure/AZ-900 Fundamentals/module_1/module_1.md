@@ -208,28 +208,63 @@ Cloud deployment models define how cloud resources are deployed and managed. The
 ## Azure Global Infrastructure
 
 ### What is Microsoft Azure
+Microsoft Azure is a cloud computing platform and service created by Microsoft. It provides a wide range of cloud services, including computing, analytics, storage, and networking, to help organizations build, deploy, and manage applications globally.
 
 ### Azure Global Infrastructure Overview
+Azure's global infrastructure is designed to provide high availability, scalability, and reliability. It consists of:
+- **Regions:** Geographical areas containing multiple data centers.
+- **Region Pairs:** Linked regions within the same geography for disaster recovery.
+- **Availability Zones:** Physically separate locations within a region to ensure high availability.
 
 ### Azure Regions
+- Over 60 regions worldwide, each consisting of multiple data centers.
+- Enables customers to deploy resources close to their users for better performance.
+- Supports data residency and compliance requirements.
 
 ### Region Pairs
+- Each Azure region is paired with another region within the same geography.
+- Provides redundancy and disaster recovery.
+- Ensures that at least one region in the pair remains operational during planned maintenance or outages.
 
 ### Availability Zones
+- Physically separate locations within an Azure region.
+- Each zone has independent power, cooling, and networking.
+- Designed to protect applications and data from data center failures.
 
 ### When to Use Availability Zones
+- Mission-critical applications requiring high availability.
+- Workloads that need to meet strict uptime requirements.
+- Scenarios where fault tolerance is essential.
 
 ### Azure Data Centers (High-Level)
+- State-of-the-art facilities designed for security, efficiency, and sustainability.
+- Equipped with advanced cooling, power, and networking systems.
+- Operated to meet global compliance standards.
 
-### Soverign & Specialized Clouds
+### Sovereign & Specialized Clouds
+- **Azure Government:** A dedicated cloud for U.S. government agencies and their partners, ensuring compliance with government regulations.
+- **Azure China:** Operated by 21Vianet to comply with Chinese regulations.
+- **Specialized Clouds:** Tailored for specific industries or compliance needs.
 
-### Azure Government Overivew
+### Azure Government Overview
+- Provides a physically isolated instance of Azure for U.S. government agencies.
+- Meets strict compliance requirements, including FedRAMP and DoD standards.
+- Offers the same services as public Azure with additional security and compliance features.
 
 ### Azure Global Services Summary
+- Azure's global infrastructure ensures high availability, scalability, and disaster recovery.
+- Customers can deploy resources in regions that meet their performance and compliance needs.
+- Specialized clouds provide additional options for government and regulated industries.
 
 ### Exam Tip: Regions vs Zones
+- **Regions:** Geographical areas with multiple data centers.
+- **Availability Zones:** Isolated locations within a region for high availability.
+- Understand when to use each for disaster recovery and fault tolerance.
 
 ### Knowledge Check
+- What is the purpose of Azure region pairs?
+- How do availability zones ensure high availability?
+- What are the benefits of using Azure Government for U.S. agencies?
 
 ## Azure Resource Organization
 
